@@ -22,3 +22,7 @@ i.e ``http://localhost:3000``
 Array_Summation::sum(90,900);
 ```
 Method to update the figures
+
+
+### Screenshots
+Expected output1 and 2 attached.
