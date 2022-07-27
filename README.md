@@ -1,9 +1,9 @@
 ### Question 1:
 Open and `cd` to the question1 folder:
-Start your server as it will automatically server the `index.php` file i.e 
+Start your server to serve the `index.php` file i.e
 ``http://localhost:5000``
 
-> In this application, the root server localhost:5000 is used, change in the pagination in case the root Server is different
+> In this application, the root server localhost:5000 is used; change in the pagination in case the root Server is different
 
 #### Folder Structure:
 - `src > controller > api>datim.php` for the controller
@@ -25,4 +25,4 @@ Method to update the figures
 
 
 ### Screenshots
-Expected output1 and 2 attached.
+Expected output1 and two are attached.
