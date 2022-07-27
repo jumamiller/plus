@@ -9,11 +9,12 @@
 
 class DatimRequest {
     /**
-     * @return void
+     * @return array
      */
-    public static function request($page)
+    public static function request()
     {
         try{
+            $page=$_GET['page']?  : 1;// get current page
             $url = "https://www.datim.org/api/sqlViews/fgUtV6e9YIX/data.json?page=$page";
 
             $curl = curl_init($url);
@@ -27,7 +28,7 @@ class DatimRequest {
             curl_close($curl);
             return json_decode($response);
         } catch (\Exception $exception) {
-            return null;
+            return [];
         }
     }
 }
